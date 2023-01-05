@@ -55,12 +55,12 @@ h3{
   color: white;
   text-align: center;
   margin: 4px;
-  
+  font-size: 25px;
 }
 
 .container{
+  max-width: 1080px;
   margin: 30px auto;
-  width: 400px;
 }
 
 input[type="text"]{
@@ -82,4 +82,44 @@ input[type="text"]{
   font-size: 16px;
   width: 100%;
   border-color: #8b98d4;
+}
+
+.topContainer{
+  margin: 30px auto;
+  width: 400px;
+}
+
+.bottomContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  width: 800px;
+}
+
+.details {
+  width: 100%;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  width: 20%;
+}
+
+.parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 18px;
+  width: 80%;
+}
+
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
 }
